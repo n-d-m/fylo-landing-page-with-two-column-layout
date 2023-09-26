@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-dark: hsl(243, 87%, 12%);
+    --primary-desaturated: hsl(238, 22%, 44%);
+
+    --accent-bright: hsl(224, 93%, 58%);
+    --accent-moderate: hsl(170, 45%, 43%);
+
+    --neutral-grayish: hsl(240, 75%, 98%);
+    --netural-gray: hsl(0, 0%, 75%);
+}
+
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-dark);
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-desaturated);
+}
+
+.container{
+    margin: 0 auto;
+}
